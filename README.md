@@ -8,5 +8,5 @@ seaborn
 requests
 numpy
 pandas
-sci-kit learn
+scikit learn
 stats
