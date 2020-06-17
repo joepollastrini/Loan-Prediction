@@ -60,12 +60,11 @@ The purpose of this project is to automate the loan eligibility process based on
 3. Run above in same order as listed
 4. Download Work.zip and extract for all other files used prior to finished product.
 
-
 ## Contributing Members
 
-**Team Lead: ** [Joe Pollastrini](https://github.com/joepollastrini)
-**Email: ** joepollastrini@gmail.com
-**Phone: ** (630)-418-3594
+****Team Lead:**** [Joe Pollastrini](https://github.com/joepollastrini)
+****Email:**** joepollastrini@gmail.com
+****Phone:**** (630)-418-3594
 [Linkedin](www.linkedin.com/in/joe-pollastrini-a56b24104)
 
 ## Contact
