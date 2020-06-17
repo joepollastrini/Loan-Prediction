@@ -63,8 +63,10 @@ The purpose of this project is to automate the loan eligibility process based on
 
 ## Contributing Members
 
-**Team Lead : [Joe Pollastrini](https://github.com/[github handle])(@slackHandle)**
-
+**Team Lead: ** [Joe Pollastrini](https://github.com/joepollastrini)
+**Email: ** joepollastrini@gmail.com
+**Phone: ** (630)-418-3594
+[Linkedin](www.linkedin.com/in/joe-pollastrini-a56b24104)
 
 ## Contact
 * Feel free to contact team leads with any questions, comments, or concerns!
