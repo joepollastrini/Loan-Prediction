@@ -14,15 +14,17 @@ stats
 # Loan Prediction
 This project was part of a hackathon found on [Analytics Vidhaya](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/). Other projects can be found at the [main GitHub repo](https://github.com/joepollastrini).
 
-
-
-
-
-
-#### -- Project Status: [Active, On-Hold, Completed]
+#### -- Project Status: [Active]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to automate the loan eligibility process based on customer detail provided while filling out an online application form.  To automate the process, the dataset will be utilized to identify customer segments that are eligible for the loan amount requested so that a company can specifically target these customers.
+
+
+
+
+
+
+
 
 ### Partner
 * [Name of Partner organization/Government department etc..]
