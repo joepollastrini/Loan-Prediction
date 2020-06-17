@@ -1,16 +1,3 @@
-# Loan-Prediction
-A project to predict loan approval based on certain criteria
-
-Requires:
-Python version:
-matplotlib
-seaborn
-requests
-numpy
-pandas
-scikit learn
-stats
-
 # Loan Prediction
 This project was part of a hackathon found on [Analytics Vidhaya](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/). Other projects can be found at the [main GitHub repo](https://github.com/joepollastrini).
 
@@ -19,35 +6,31 @@ This project was part of a hackathon found on [Analytics Vidhaya](https://dataha
 ## Project Intro/Objective
 The purpose of this project is to automate the loan eligibility process based on customer detail provided while filling out an online application form.  To automate the process, the dataset will be utilized to identify customer segments that are eligible for the loan amount requested so that a company can specifically target these customers.
 
-
-
-
-
-
-
-
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
-
 ### Methods Used
-* Inferential Statistics
-* Machine Learning
+* Descriptive Statistics
+* Feature Engineering
 * Data Visualization
 * Predictive Modeling
-* etc.
+* Machine Learning
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* Jupyter Notebooks
+
+
+### Requirements/Imports
+* Python 3.8.1
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
+* Scikit Learn
+* Requests
+* Stats
+
+
+
+
 
 ## Project Description
 (Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
