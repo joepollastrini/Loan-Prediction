@@ -43,7 +43,7 @@ The purpose of this project is to automate the loan eligibility process based on
   * v6: remove dependents and married and use family size
   * v7: remove outliers, make model for inliers and model for outliers, recombine for predictions
  
- ****5. Next Steps:****  Lower FPR rate.
+ ****5. Next Steps:****  Lower FPR rate, better impute credit history, and build out a more robust, automated system, from application to approval status
 
 ## Needs of this project
 * data exploration/descriptive statistics
