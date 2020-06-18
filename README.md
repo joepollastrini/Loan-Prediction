@@ -46,9 +46,9 @@ The purpose of this project is to automate the loan eligibility process based on
  ****5. Next Steps:****  Lower FPR rate, better impute credit history, and build out a more robust, automated system, from application to approval status
 
 ## Needs of this project
-* data exploration/descriptive statistics
-* data processing/cleaning
-* predictive modeling
+* Data Exploration/Descriptive Statistics
+* Data Processing/Cleaning
+* Predictive Modeling
 
 ## Getting Started
 1. Ensure local machine has program that can run iPython notebooks.
