@@ -35,7 +35,7 @@ The purpose of this project is to automate the loan eligibility process based on
 
 ****3. Imputation:****  I was first interested in how many specific variables I had to impute as well as if any applicants had more than one missing value.  Working from the least amount missing to the most, I filled in the missing values.  Most were filled with the mode, however, some were filled based on probability within grouping.  For example, missing marriage values were based on gender of the applicant.  Credit History had the most missing values, so I tried to build a seperate model to predict this, however the model just predicted having a history (the mode).
 
-****4. Model Build:****  I utilized 4 types of models as well as multiple types of model inputs.  The 4 model types included logistic regression, a random forest with maximum depth, and random forest without maximum depth, and a decision tree.  The following are descriptions of the types of model inputs I tried:
+****4. Model Build:****  I utilized 4 types of models as well as multiple types of model inputs.  The 4 model types included logistic regression, a random forest with maximum depth, and random forest with a limited depth, and a decision tree.  The following are descriptions of the types of model inputs I tried:
   * v2: Dependents are dummy variables, not ordinal
   * v3: Log family income and loan amount
   * v4: remove outliers from family income and loan amount
