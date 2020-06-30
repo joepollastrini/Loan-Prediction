@@ -1,5 +1,4 @@
 ## Quick fixes:
-* Add correlation heat maps
 * Variable importance as pie chart, not text (%)
 * Add benchmark (e.g. data set loan approval rate)
 
