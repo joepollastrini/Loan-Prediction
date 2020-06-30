@@ -1,5 +1,4 @@
 ## Quick fixes:
-* Check project report, add plot changes, correlation heat map
 
 ## More time consuming/requires further education:
 * Get away from mode imputation and try K-nearest neighbor
