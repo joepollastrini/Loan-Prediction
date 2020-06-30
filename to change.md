@@ -1,5 +1,4 @@
 ## Quick fixes:
-* Change graphs to show percent on y-axis, not count
 * Add correlation heat maps
 * Variable importance as pie chart, not text (%)
 * Add benchmark (e.g. data set loan approval rate)
