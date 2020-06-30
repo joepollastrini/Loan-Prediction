@@ -1,5 +1,4 @@
 ## Quick fixes:
-* Variable importance as pie chart, not text (%)
 * Add benchmark (e.g. data set loan approval rate)
 
 * Check project report, add plot changes, correlation heat map
