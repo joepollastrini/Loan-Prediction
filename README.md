@@ -63,10 +63,8 @@ The purpose of this project is to automate the loan eligibility process based on
  * train_loan_data.csv and test_loan_data.csv
  * Loan Prediction EDA.ipynb
  * Loan Prediction Impute and Clean.ipynb
- * Entire KNN Imputation folder
-  * to see KNN model build process
- * Entire Models Folder
-  * stores models created from above files
+ * Entire KNN Imputation folder (to see KNN model build process)
+ * Entire Models Folder (stores models created from above files)
  * KNN Impute and Clean
 
 ## Contributing Members
