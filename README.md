@@ -12,6 +12,8 @@ The purpose of this project is to automate the loan eligibility process based on
 * Data Visualization
 * Predictive Modeling
 * Machine Learning
+* Cross Validation
+* Hyperparameter Optimization
 
 ### Technologies
 * Python
@@ -27,13 +29,14 @@ The purpose of this project is to automate the loan eligibility process based on
 * Scikit Learn
 * Requests
 * Stats
+* Pickle
 
 ## Project Description
 ****1. Data:**** Train and Test sets downloaded from [Analytics Vidhaya](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/#ProblemStatement), (at the bottom).  Data set was mostly clean but contained missing values.
 
 ****2. EDA:**** Explored the training data set to visualize the breakdown of variable categories and their proportion of loan approval status.  Without any look at the data, I hypothesized that income and credit history would be the two most important factors.  Results were interesting.  I also created new variables, mostly debt/equity ratios in hopes these would create better indicators of financial health.
 
-****3. Imputation:****  I was first interested in how many specific variables I had to impute as well as if any applicants had more than one missing value.  Working from the least amount missing to the most, I filled in the missing values.  Most were filled with the mode, however, some were filled based on probability within grouping.  For example, missing marriage values were based on gender of the applicant.  Credit History had the most missing values, so I tried to build a seperate model to predict this, however the model just predicted having a history (the mode).
+****3. Imputation:****  I was first interested in how many specific variables I had to impute as well as if any applicants had more than one missing value.  Working from the least amount missing to the most, I filled in the missing values.  Many were imputed using a KNN model, however, some were filled based on probability within grouping.  For example, missing marriage values were based on gender of the applicant.  Credit History had the most missing values and seems to be the most important variable.  Correct imputation prediction will likely improve model accuracy.
 
 ****4. Model Build:****  I utilized 4 types of models as well as multiple types of model inputs.  The 4 model types included logistic regression, a random forest with maximum depth, and random forest with a limited depth, and a decision tree.  The following are descriptions of the types of model inputs I tried:
   * v2: Dependents are dummy variables, not ordinal
@@ -43,7 +46,7 @@ The purpose of this project is to automate the loan eligibility process based on
   * v6: remove dependents and married and use family size
   * v7: remove outliers, make model for inliers and model for outliers, recombine for predictions
  
- ****5. Next Steps:****  Lower FPR rate, better impute credit history, and build out a more robust, automated system, from application to approval status
+ ****5. Next Steps:****  Use KNN imputation models on logistic regression, and build out a more robust, automated system, from application to approval status.
 
 ## Needs of this project
 * Data Exploration/Descriptive Statistics
@@ -52,13 +55,17 @@ The purpose of this project is to automate the loan eligibility process based on
 
 ## Getting Started
 1. Ensure local machine has program that can run iPython notebooks.
-2. Download the following:
- * Loan Prediction EDA
- * Loan Prediction Impute and Clean
- * Loan Prediction Model Build
- * Loan Prediction Rand Forest
-3. Run above in same order as listed
-4. Download Work.zip and extract for all other files used prior to finished product.
+2. Download the following for code to run:
+ * forModel_train.csv and forModel_test.csv
+ * RF Model Build (KNN Imputed, Cross Validation, Hyperparameter Optimization).ipynb
+ * Final Model.ipynb
+3. Download the following to see work/thought process
+ * train_loan_data.csv and test_loan_data.csv
+ * Loan Prediction EDA.ipynb
+ * Loan Prediction Impute and Clean.ipynb
+ * Entire KNN Imputation folder (to see KNN model build process)
+ * Entire Models Folder (stores models created from above files)
+ * KNN Impute and Clean
 
 ## Contributing Members
 
