@@ -1,3 +1,5 @@
+# [Use this link to fill out application and get loan approval status](https://forms.gle/qrXzZ6xBa68inxVr5)
+
 # Loan Prediction
 This project was part of a hackathon found on [Analytics Vidhaya Loan Prediction](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/). Other projects can be found at the [main GitHub repo](https://github.com/joepollastrini).
 
