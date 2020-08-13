@@ -14,6 +14,7 @@ The purpose of this project is to automate the loan eligibility process based on
 * Data Visualization
 * Predictive Modeling
 * Machine Learning
+* Cluster Analysis
 * Cross Validation
 * Hyperparameter Optimization
 
