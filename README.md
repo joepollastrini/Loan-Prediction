@@ -21,6 +21,7 @@ The purpose of this project is to automate the loan eligibility process based on
 ### Technologies
 * Python
 * Jupyter Notebooks
+* Google Forms
 
 
 ### Requirements/Imports
@@ -33,6 +34,7 @@ The purpose of this project is to automate the loan eligibility process based on
 * Requests
 * Stats
 * Pickle
+* google_funcs
 
 ## Project Description
 ****1. Data:**** Train and Test sets downloaded from [Analytics Vidhaya](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/#ProblemStatement), (at the bottom).  Data set was mostly clean but contained missing values.
@@ -57,7 +59,7 @@ The purpose of this project is to automate the loan eligibility process based on
 * Predictive Modeling
 
 ## Getting Started
-1. Ensure local machine has program that can run iPython notebooks.
+1. Ensure local machine has program that can run python and iPython notebooks.
 2. Download the following for code to run:
  * forModel_train.csv and forModel_test.csv
  * RF Model Build (KNN Imputed, Cross Validation, Hyperparameter Optimization).ipynb
@@ -69,6 +71,7 @@ The purpose of this project is to automate the loan eligibility process based on
  * Entire KNN Imputation folder (to see KNN model build process)
  * Entire Models Folder (stores models created from above files)
  * KNN Impute and Clean
+4. Download the Automation folder for the full project (takes user input and creates report)
 
 ## Contributing Members
 
