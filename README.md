@@ -51,8 +51,11 @@ The purpose of this project is to automate the loan eligibility process based on
   * v6: remove dependents and married and use family size
   * v7: remove outliers, make model for inliers and model for outliers, recombine for predictions
  
- ****5. Next Steps:****  Build out an automated system, from application to approval status.
-
+ ****5. Automation:****  I built out a system that would be similar to one put in place at an actual bank.  Using Google Forms as the application for loan pre-approval, the scripts grab that user data, run it through the model, and create a report for the agents.
+ 
+ ****6. Next Steps:****  Email report.
+ 
+ 
 ## Needs of this project
 * Data Exploration/Descriptive Statistics
 * Data Processing/Cleaning
